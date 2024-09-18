@@ -1,0 +1,9 @@
+../Core/Src/main.c:83:5:main	1
+../Core/Src/main.c:132:6:SystemClock_Config	4
+../Core/Src/main.c:194:13:MX_FDCAN1_Init	2
+../Core/Src/main.c:245:13:MX_GPIO_Init	1
+../Core/Src/main.c:315:6:FDCAN_Send_Command	3
+../Core/Src/main.c:341:6:FDCAN_Receive	2
+../Core/Src/main.c:355:6:USB_Send_Command	1
+../Core/Src/main.c:361:6:USB_Received	3
+../Core/Src/main.c:385:6:Error_Handler	1
