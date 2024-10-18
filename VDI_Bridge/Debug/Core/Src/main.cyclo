@@ -1,0 +1,9 @@
+../Core/Src/main.c:79:5:main	1
+../Core/Src/main.c:130:6:SystemClock_Config	3
+../Core/Src/main.c:168:13:MX_FDCAN2_Init	2
+../Core/Src/main.c:209:13:MX_TIM1_Init	4
+../Core/Src/main.c:253:13:MX_GPIO_Init	1
+../Core/Src/main.c:278:6:FDCAN_Send_Bridge_Start	1
+../Core/Src/main.c:294:6:FDCAN_Send_Bridge_Command	2
+../Core/Src/main.c:316:6:FDCAN_Send_Bridge_Heartbeat	1
+../Core/Src/main.c:339:6:Error_Handler	1
