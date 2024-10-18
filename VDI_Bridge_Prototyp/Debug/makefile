@@ -60,8 +60,8 @@ all: main-build
 main-build: VDI_Bridge_Prototyp.elf secondary-outputs
 
 # Tool invocations
-VDI_Bridge_Prototyp.elf VDI_Bridge_Prototyp.map: $(OBJS) $(USER_OBJS) C:\CubeIDE_Workspace\VDI_Bridge_Prototyp\STM32H7A3ZITXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "VDI_Bridge_Prototyp.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\CubeIDE_Workspace\VDI_Bridge_Prototyp\STM32H7A3ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="VDI_Bridge_Prototyp.map" -Wl,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+VDI_Bridge_Prototyp.elf VDI_Bridge_Prototyp.map: $(OBJS) $(USER_OBJS) C:\Users\Testrechner\git\VDI_Projekte\VDI_Bridge_Prototyp\STM32H7A3ZITXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "VDI_Bridge_Prototyp.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\Testrechner\git\VDI_Projekte\VDI_Bridge_Prototyp\STM32H7A3ZITXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="VDI_Bridge_Prototyp.map" -Wl,--cref -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

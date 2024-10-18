@@ -37,6 +37,8 @@ extern "C" {
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
 #define CAN_SIZE 8
+
+#define VDI_CAN_ID_START 0x00
 #define VDI_CAN_ID_LOGIN 0x215
 #define VDI_CAN_ID_HEARTBEAT 0x701
 
