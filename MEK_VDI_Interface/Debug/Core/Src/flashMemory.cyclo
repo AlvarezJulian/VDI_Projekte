@@ -1,0 +1,2 @@
+../Core/Src/flashMemory.c:10:6:writedata	2
+../Core/Src/flashMemory.c:37:6:readdata	1
